@@ -13,7 +13,7 @@ func SetUp() (r *gin.Engine) {
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
 
 	//	 注册路由信息
-	r.GET("ping", func(c *gin.Context) {
+	r.GET("/ping", func(c *gin.Context) {
 		c.String(http.StatusOK, "pong")
 	})
 

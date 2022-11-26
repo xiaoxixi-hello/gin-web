@@ -1,0 +1,15 @@
+{"level":"DEBUG","time":"2022-11-26T11:10:26.043+0800","caller":"mysql/mysql.go:22","msg":"connect DB failed, err:%v\n","error":"dial tcp 127.0.0.1:3306: connect: connection refused"}
+{"level":"DEBUG","time":"2022-11-26T11:11:49.408+0800","caller":"mysql/mysql.go:22","msg":"connect DB failed, err:%v\n","error":"Error 1049: Unknown database 'db_gin'"}
+{"level":"DEBUG","time":"2022-11-26T11:13:19.047+0800","caller":"gin-web/main.go:53","msg":"init success!!!"}
+{"level":"ERROR","time":"2022-11-26T11:13:19.047+0800","caller":"gin-web/main.go:67","msg":"listen: %s\n","error":"listen tcp: address 8090: missing port in address"}
+{"level":"INFO","time":"2022-11-26T11:14:34.148+0800","caller":"gin-web/main.go:79","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T11:14:34.148+0800","caller":"gin-web/main.go:88","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-26T11:14:35.441+0800","caller":"gin-web/main.go:53","msg":"init success!!!"}
+{"level":"ERROR","time":"2022-11-26T11:14:35.442+0800","caller":"gin-web/main.go:67","msg":"listen: %s\n","error":"listen tcp: address 8090: missing port in address"}
+{"level":"INFO","time":"2022-11-26T11:15:57.555+0800","caller":"gin-web/main.go:79","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T11:15:57.555+0800","caller":"gin-web/main.go:88","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-26T11:15:58.331+0800","caller":"gin-web/main.go:53","msg":"init success!!!"}
+{"level":"INFO","time":"2022-11-26T11:16:10.020+0800","caller":"logger/logger.go:67","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36","errors":"","cost":0.000012667}
+{"level":"INFO","time":"2022-11-26T11:16:10.061+0800","caller":"logger/logger.go:67","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36","errors":"","cost":0.00000075}
+{"level":"INFO","time":"2022-11-26T11:16:24.675+0800","caller":"gin-web/main.go:79","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T11:16:24.675+0800","caller":"gin-web/main.go:88","msg":"Server exiting"}
