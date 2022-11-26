@@ -7,6 +7,7 @@ import (
 	"github.com/ylinyang/gin-web/dao/mysql"
 	"github.com/ylinyang/gin-web/dao/redis"
 	"github.com/ylinyang/gin-web/logger"
+	"github.com/ylinyang/gin-web/pkg"
 	"github.com/ylinyang/gin-web/routers"
 	"github.com/ylinyang/gin-web/settings"
 	"go.uber.org/zap"
@@ -50,6 +51,12 @@ func main() {
 		log.Println("init redis failed:", err)
 		return
 	}
+	
+	if err := pkg.Init(); err != nil {
+		log.Println("init snowflake failed:", err)
+		return
+	}
+
 	zap.L().Debug("init success!!!")
 
 	// 路由注册
