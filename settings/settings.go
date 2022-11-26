@@ -7,11 +7,16 @@ import (
 )
 
 func Init() (err error) {
+	// 1. 直接指定文件路径
+	//viper.SetConfigFile("./config/config.yaml")
+
+	// 2. 指定配置文件的名和配置文件的位置 viper自行查找
 	viper.SetConfigName("config")    // 配置文件名称(无扩展名)
-	viper.SetConfigType("yaml")      // 如果配置文件的名称中没有扩展名，则需要配置此项
 	viper.AddConfigPath("./config/") // 配置文件存储路径
-	err = viper.ReadInConfig()       // 查找并读取配置文件
-	if err != nil {                  // 处理读取配置文件的错误
+	//viper.SetConfigType("yaml")      // 用于远程获取配置文件的时候时候指定文件类型的  远程配置中心
+
+	err = viper.ReadInConfig() // 查找并读取配置文件
+	if err != nil {            // 处理读取配置文件的错误
 		return err
 	}
 	viper.WatchConfig()

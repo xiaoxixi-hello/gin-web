@@ -1,7 +1,9 @@
 package routers
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/spf13/viper"
 	"github.com/ylinyang/gin-web/logger"
 	"net/http"
 )
@@ -14,7 +16,7 @@ func SetUp() (r *gin.Engine) {
 
 	//	 注册路由信息
 	r.GET("/ping", func(c *gin.Context) {
-		c.String(http.StatusOK, "pong")
+		c.String(http.StatusOK, fmt.Sprintf("%s", viper.GetString("app.name")))
 	})
 
 	return

@@ -13,3 +13,18 @@
 {"level":"INFO","time":"2022-11-26T11:16:10.061+0800","caller":"logger/logger.go:67","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36","errors":"","cost":0.00000075}
 {"level":"INFO","time":"2022-11-26T11:16:24.675+0800","caller":"gin-web/main.go:79","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-26T11:16:24.675+0800","caller":"gin-web/main.go:88","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-26T13:41:53.028+0800","caller":"gin-web/main.go:53","msg":"init success!!!"}
+{"level":"INFO","time":"2022-11-26T13:42:22.263+0800","caller":"gin-web/main.go:79","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T13:42:22.263+0800","caller":"gin-web/main.go:88","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-26T13:42:23.342+0800","caller":"gin-web/main.go:53","msg":"init success!!!"}
+{"level":"INFO","time":"2022-11-26T13:42:33.380+0800","caller":"logger/logger.go:67","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36","errors":"","cost":0.000023792}
+{"level":"INFO","time":"2022-11-26T13:43:10.679+0800","caller":"gin-web/main.go:79","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T13:43:10.679+0800","caller":"gin-web/main.go:88","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-26T13:43:11.787+0800","caller":"gin-web/main.go:53","msg":"init success!!!"}
+{"level":"INFO","time":"2022-11-26T13:43:13.257+0800","caller":"logger/logger.go:67","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36","errors":"","cost":0.000030375}
+{"level":"INFO","time":"2022-11-26T13:43:20.978+0800","caller":"logger/logger.go:67","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36","errors":"","cost":0.000058875}
+{"level":"INFO","time":"2022-11-26T13:43:42.768+0800","caller":"gin-web/main.go:79","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T13:43:42.769+0800","caller":"gin-web/main.go:88","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-11-26T13:49:02.992+0800","caller":"gin-web/main.go:53","msg":"init success!!!"}
+{"level":"INFO","time":"2022-11-26T13:49:06.846+0800","caller":"gin-web/main.go:79","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T13:49:06.846+0800","caller":"gin-web/main.go:88","msg":"Server exiting"}
